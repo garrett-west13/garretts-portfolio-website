@@ -853,6 +853,7 @@ blockquote {
 }
 
 .h-hero-middle-wrap {
+  /* height: 375px; */
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   margin-top: 20px;
@@ -907,7 +908,7 @@ blockquote {
   background-color: var(--eerie-black);
   border-radius: 20px;
   margin-top: 20px;
-  padding: 40px 62px 41px 32px;
+  padding: 67px 62px 68px 32px;
 }
 
 .use-software-wrap {
@@ -1613,6 +1614,7 @@ blockquote {
 
 .signature {
   margin-top: 36px;
+  width: 150px;
 }
 
 .statistics-wrap {
