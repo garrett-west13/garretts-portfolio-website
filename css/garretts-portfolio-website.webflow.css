@@ -133,10 +133,6 @@ blockquote {
   line-height: 52px;
 }
 
-.h3.e-duration-year:hover, .h3.experiences-title:hover {
-  color: var(--white);
-}
-
 .sub-h1 {
   color: var(--white);
   letter-spacing: var(--letter-spacing-1);
@@ -403,10 +399,6 @@ blockquote {
 .body-02.experiences-b2 {
   color: var(--white);
   margin-top: 12px;
-}
-
-.body-02.experiences-b2:hover {
-  color: var(--white);
 }
 
 .body-02.price-description {
@@ -1677,8 +1669,11 @@ blockquote {
 
 .experiences-list:hover {
   background-color: var(--green);
-  color: var(--chinese-black);
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.experiences-list:hover * {
+  color: var(--eerie-black);
 }
 
 .e-duration-box {
