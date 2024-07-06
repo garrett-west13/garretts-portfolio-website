@@ -1511,7 +1511,7 @@ blockquote {
   grid-column-gap: 12px;
   grid-row-gap: 12px;
   margin-top: 12px;
-  display: flex !important;
+  display: flex;
 }
 
 .follow-social-link {
