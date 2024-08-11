@@ -1803,6 +1803,7 @@ blockquote {
 .price-btn:hover {
   border-color: var(--green);
   background-color: var(--green);
+  color: var(--eerie-black);
 }
 
 .cp-fetures-box {
