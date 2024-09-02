@@ -60,10 +60,11 @@
                         class="section-heading-wrap"><img
                             src="https://cdn.prod.website-files.com/6625065aaabd00c3125e1837/6625065aaabd00c3125e1885_Group%201000017719.svg"
                             loading="lazy" alt="" class="section-icon">
-                        <div class="body-02 section-name">Pricing SECTION</div>
+                        <div class="body-02 section-name">Pricing</div>
                         <div class="h2-wrap">
                             <h1 class="h2 center">Check out my plans and pricing</h1>
                         </div>
+                        <div class="h2-wrap center"><p>already have a subscription? <a class="nav-link" href="https://billing.stripe.com/p/login/fZe8An5f07m29RCfYY">click here</a> to manage</p></div>
                     </div>
                     <style>
                         .faq-arrow {
@@ -72,6 +73,21 @@
 
                         .faq-arrow.inverted {
                             filter: invert(100%);
+                        }
+                        .one-time-projects-wrap {
+                            text-align: center;
+                            width: 50%;
+                            margin: 1rem auto;
+                            grid-row-gap: 50px;
+                        }
+                        .one-time-projects-wrap .price-btn {
+                            margin-top: 20px;
+                            width: 50%;
+                        }
+                        @media (max-width: 990px) {
+                            .pricing-card {
+                                width: 100%;
+                            }
                         }
                     </style>
                     <script>
@@ -86,6 +102,15 @@
                             });
                         });
                     </script>
+                    <div class="one-time-projects-wrap pricing-card">
+                        <div class="h3-wrap">
+                            <h2 class="h3">One-Time Projects</h2>
+                        </div>
+                        <div class="body-02 ">
+                            For businesses looking for a one-time project or specific tasks, please contact me for a custom quote. We can discuss your unique needs and tailor a solution that fits your goals.
+                        </div>
+                        <div class="pricing-card-bottom"><a href="/contact" class="price-btn w-button">Get in touch →</a></div>
+                    </div>
                     <div class="pricing-card-wrap">
                         <div data-w-id="00f8f19d-c77e-d92b-15af-e687777c9931"
                             style="opacity: 1; transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
